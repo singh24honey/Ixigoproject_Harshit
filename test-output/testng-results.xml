@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28911" started-at="2021-05-03T16:07:36 IST" finished-at="2021-05-03T16:08:05 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28911" started-at="2021-05-03T16:07:36 IST" finished-at="2021-05-03T16:08:05 IST">
+      <class name="com.ixigo.testcases.IxigoFlightSearchTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ixigo.testcases.IxigoFlightSearchTest@5f282abb]" name="setup" is-config="true" duration-ms="833" started-at="2021-05-03T16:07:35 IST" finished-at="2021-05-03T16:07:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startApplication()[pri:0, instance:com.ixigo.testcases.IxigoFlightSearchTest@5f282abb]" name="startApplication" is-config="true" duration-ms="6019" started-at="2021-05-03T16:07:36 IST" finished-at="2021-05-03T16:07:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="Ixigo()[pri:0, instance:com.ixigo.testcases.IxigoFlightSearchTest@5f282abb]" name="Ixigo" duration-ms="18137" started-at="2021-05-03T16:07:42 IST" finished-at="2021-05-03T16:08:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ixigo -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.ixigo.testcases.IxigoFlightSearchTest@5f282abb]" name="teardownMethod" is-config="true" duration-ms="595" started-at="2021-05-03T16:08:00 IST" finished-at="2021-05-03T16:08:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Ixigo status=SUCCESS method=IxigoFlightSearchTest.Ixigo()[pri:0, instance:com.ixigo.testcases.IxigoFlightSearchTest@5f282abb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.ixigo.testcases.IxigoFlightSearchTest@5f282abb]" name="closeApplication" is-config="true" duration-ms="4111" started-at="2021-05-03T16:08:00 IST" finished-at="2021-05-03T16:08:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.ixigo.testcases.IxigoFlightSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
