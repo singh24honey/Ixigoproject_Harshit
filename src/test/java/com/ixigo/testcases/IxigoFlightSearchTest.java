@@ -14,6 +14,8 @@ public class IxigoFlightSearchTest extends BaseClass {
 	
 	@Test
 	public void Ixigo() throws Exception {
+		
+		System.out.println("This is just to check branching in GIT");
 		Logger=report.createTest("Checking the Ixigo searh engine");
 		IxigoFlightSearchPage ixigo= new IxigoFlightSearchPage(driver);
 		

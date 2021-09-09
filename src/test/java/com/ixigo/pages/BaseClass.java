@@ -40,6 +40,7 @@ public class BaseClass {
 	public void startApplication() {
 		
 		driver = BrowserFactory.startApplication(config.getBrowser(), config.getUrl());
+		
 	}
 	
 	@AfterClass
@@ -52,6 +53,7 @@ public class BaseClass {
 	public void teardownMethod(ITestResult result) {
 		if(result.getStatus()==ITestResult.FAILURE) {
 			Logger.fail("Test Failed " +result.getThrowable().getMessage());
+			System.out.println("Again checking branching");
 		}
 		else if(result.getStatus()==ITestResult.SUCCESS) {
 			Logger.pass("Test Passed " );
