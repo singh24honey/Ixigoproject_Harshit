@@ -53,7 +53,6 @@ public class BaseClass {
 	public void teardownMethod(ITestResult result) {
 		if(result.getStatus()==ITestResult.FAILURE) {
 			Logger.fail("Test Failed " +result.getThrowable().getMessage());
-			System.out.println("Again checking branching");
 			System.out.println("adding code for feature 1");
 		}
 		else if(result.getStatus()==ITestResult.SUCCESS) {
