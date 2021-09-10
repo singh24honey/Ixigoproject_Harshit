@@ -54,6 +54,7 @@ public class BaseClass {
 		if(result.getStatus()==ITestResult.FAILURE) {
 			Logger.fail("Test Failed " +result.getThrowable().getMessage());
 			System.out.println("Again checking branching");
+			System.out.println("adding code for feature 1");
 		}
 		else if(result.getStatus()==ITestResult.SUCCESS) {
 			Logger.pass("Test Passed " );
