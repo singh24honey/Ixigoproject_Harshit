@@ -16,6 +16,9 @@ import com.ixigo.utilities.BrowserFactory;
 import com.ixigo.utilities.ConfigDataProvider;
 import com.ixigo.utilities.ExcelDataProvider;
 
+
+
+
 public class BaseClass {
 
 	public WebDriver driver;
@@ -55,9 +58,14 @@ public class BaseClass {
 			Logger.fail("Test Failed " +result.getThrowable().getMessage());
 			System.out.println("adding code for feature 1");
 			System.out.println("adding code");
+			System.out.println("adding in the develop branch");
 		}
 		else if(result.getStatus()==ITestResult.SUCCESS) {
 			Logger.pass("Test Passed " );
+			System.out.println("adding in the develop branch");
+			System.out.println("adding in the develop branch");
+			System.out.println("adding in the develop branch");
+			System.out.println("adding in the develop branch");
 		}
 		report.flush();
 	}
