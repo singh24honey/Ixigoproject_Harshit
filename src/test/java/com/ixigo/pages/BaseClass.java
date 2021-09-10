@@ -54,6 +54,7 @@ public class BaseClass {
 		if(result.getStatus()==ITestResult.FAILURE) {
 			Logger.fail("Test Failed " +result.getThrowable().getMessage());
 			System.out.println("adding code for feature 1");
+			System.out.println("adding code");
 		}
 		else if(result.getStatus()==ITestResult.SUCCESS) {
 			Logger.pass("Test Passed " );
